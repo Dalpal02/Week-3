@@ -1,0 +1,14 @@
+.background{
+    background-color: brown;
+
+}
+
+.mainimg{
+    border: 5px lightskyblue solid;
+    border-radius: 20%;
+    box-shadow: 10px 10px 20px;
+}
+
+.background-index{
+    background-color: brown;
+}
