@@ -13,9 +13,37 @@
       defer
     ></script>
     <link rel="stylesheet" href="./styles.css" />
-</head>
-<body>
+<header class="mt-5 mb-5"><h3 class="display-3 text-center">Contact Us</h3></header>
+<body class="background-index">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-sm-6 col-lg-6 mt-4">
+                <div class="input-group mb-3"><input type="text" class="form-control" placeholder="First Name" aria-label="firstname"></div>
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Last Name" aria-label="lastname">
+          </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email Address" aria-label="email">
+        </div>
+            <div class="input-group mb-3"><input type="tel" class="form-control" placeholder="Phone Number" aria aria-label="phonenumber">
+                </div>
+        <div class="dropdown">
+            <button class="btn btn-light dropdown-toggle mb-3" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+              Diabetes Type
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item">Type 1</a></li>
+              <li><a class="dropdown-item">Type 2</a></li>
+              <li><a class="dropdown-item">Unknown</a></li>
+            </ul>
+          </div>
 
-    
+        <button type="submit" class="btn btn-success">Submit</button>
+    </div>
+<div class="col-md-6 col-sm-6 col-lg-6"><img class="mainimg img-fluid" src="https://www.fujitsu.com/us/imagesgig5/contactus_tcm127-6317963_tcm127-6286607-32.jpg" alt="contactus"></div>
+</div>
+<br>
+<a href="./index.html"><button class="btn btn-primary">Home Page</button></a>
+</div>
 </body>
 </html>

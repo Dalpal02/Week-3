@@ -1,8 +1,3 @@
-.background{
-    background-color: brown;
-
-}
-
 .mainimg{
     border: 5px lightskyblue solid;
     border-radius: 20%;
@@ -10,5 +5,17 @@
 }
 
 .background-index{
-    background-color: brown;
+    background-color: lightblue;
+}
+
+.brandtext{
+     letter-spacing: 4px;
+     color: blueviolet;
+}
+
+.subhead{
+    font-size: 20px;
+    font-weight: 20;
+    font-style: italic;
+    padding-bottom: 50px;
 }

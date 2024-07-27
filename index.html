@@ -15,25 +15,34 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body class="background-index">
-    <div>
-      <h1>Educate Yourself on Diabetes!</h1>
-      <p>Cases of type 2 diabetes have doubled in the past 20 years.</p>
+    <div class="text-center">
+      <h1 class="display-1">Educate Yourself on Diabetes!</h1>
+      <p>Everything you need to know about managing a diabetic lifestyle.</p>
     </div>
     <br />
     <!-- This is where navbar goes -->
-    <nav
-      class="navbar bg-dark border-bottom border-body px-5"
-      data-bs-theme="dark"
-    >
-      <a class="navbar-brand" href="./index.html">Diabetes Education</a>
-      <button type="button" class="btn btn-primary">Learn More</button>
-      <button type="button" class="btn btn-primary">
-        Living With Diabetes
-      </button>
-      <button type="button" class="btn btn-primary">Contact Us</button>
-    </nav>
     <div class="container">
-      <div class="row mt-4">
+      <nav
+        class="navbar bg-dark border-bottom border-body px-5"
+        data-bs-theme="dark"
+      >
+        <a class="navbar-brand" href="./index.html" class=".brandtext"
+          >Diabetes Education</a
+        >
+        <button type="button" class="btn btn-primary">Home Page</button>
+        <a href="Table.html"
+          ><button type="button" class="btn btn-primary">
+            Diagnosing Table
+          </button></a
+        >
+        <a href="./form.html"
+          ><button type="button" class="btn btn-primary">Contact Us</button></a
+        >
+      </nav>
+    </div>
+    <!-- Container 1 -->
+    <div class="container">
+      <div class="row mt-5">
         <div class="col-md-6 col-12">
           <img
             class="mainimg img-fluid"
@@ -41,35 +50,38 @@
             alt="healthfoods"
           />
         </div>
-        <div class="col-md-6 col-12 mx-auto my-auto">
-          <h4 class="mt-5">What is Diabetes?</h4>
+        <div class="col-md-5 col-12 my-auto text-center ps-5">
+          <h1>What is Diabetes?</h1>
 
-          <p>
-            Diabetes, also called diabetes mellitus, is a condition that causes
-            blood sugar to rise. Untreated diabetes can lead to serious medical
-            problems, including cardiovascular disease.
-          </p>
+          <div class="mt-4 ms-3">
+            <p>
+              Diabetes, also called diabetes mellitus, is a condition that
+              causes blood sugar to rise. Untreated diabetes can lead to serious
+              medical problems, including cardiovascular disease.
+            </p>
+          </div>
         </div>
       </div>
       <br />
       <br />
-      <h4>So what's the difference?</h4>
+      <hr />
+      <h1 class="text-center mb-3">So what's the difference?</h1>
       <br />
       <div class="container text-center">
         <div class="row">
           <div class="col-md-4 col-sm-12">
-            <br />
-            <br />
             <h4>Type 1</h4>
             <br />
-            <div class="subhead">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              iure harum eum, impedit odio corporis cupiditate quia facilis
-              debitis optio aut accusantium tempora similique quam nostrum
-              obcaecati, officia dignissimos vitae!
+            <div>
+              Type 1 Diabetes sometimes called juvenile diabetes because it
+              develops most often in young people; however, type 1 diabetes can
+              also develop in adults. In type 1 diabetes, your body no longer
+              makes insulin or enough insulin to protect you from infection
+              because the disease has attacked and destroyed the cells that make
+              insulin.
             </div>
           </div>
-          <div class="col-md-4 col-sm-12">
+          <div class="col-md-4 col-sm-12 pe-5 ps-4">
             <img
               class="mainimg img-fluid"
               src="https://uploads-ssl.webflow.com/61a0875915332c1fd8109f03/63035a8cccff5c5246811939_difference-between-type-1-and-type-2-diabetes.jpg"
@@ -77,17 +89,20 @@
             />
           </div>
           <div class="col-md-4 col-sm-12">
-            <br /><br />
             <h4>Type 2</h4>
             <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-            sapiente iusto sunt. Autem repellat molestias consequatur rem
-            commodi, suscipit porro? Cupiditate quo nemo dolores totam ab ea
-            atque, corrupti impedit?
+            Type 2 Diabetes is a condition that affects the way your body uses
+            sugar, a key source of fuel from carbohydrates found in starchy
+            vegetables, sugary beverages, desserts, pasta, beer and wine, white
+            bread, even milk. With type 2 diabetes, your body either doesn't use
+            insulin effectively (called insulin resistance) or your pancreas,
+            which secretes insulin into your bloodstream, doesn't produce enough
+            to maintain a healthy blood sugar level.
+            <br />
+            <br />
           </div>
         </div>
       </div>
     </div>
-    <!-- Need to create a table and a form on a seperate page -->
   </body>
 </html>
